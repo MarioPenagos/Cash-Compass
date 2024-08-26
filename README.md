@@ -26,13 +26,13 @@ Before running the project, ensure you have the following installed:
 
 4. **Set up the FRED API Key**:
 
-   Get your API key from the [FRED website](https://fred.stlouisfed.org/) and add it to the `main()` function in the `cash-compass-v4.ipynb` file:
+   Get your API key from the [FRED website](https://fred.stlouisfed.org/) and add it to the `main()` function in the `cash-compass-v5.ipynb` file:
    ```python
    api_key = "your_api_key_here"
 
 ## Usage
 
-Open your web browser and go to the provided Jupyter Notebook interface to run the cells in `cash-compass-v4.ipynb`.
+Open your web browser and go to the provided Jupyter Notebook interface to run the cells in `cash-compass-v5.ipynb`.
 
 ### Interacting with the app:
 
@@ -43,7 +43,7 @@ Open your web browser and go to the provided Jupyter Notebook interface to run t
 
 ## Project Structure
 
-- **cash-compass-v4.ipynb**: The main Jupyter Notebook file containing the Dash app code.
+- **cash-compass-v5.ipynb**: The main Jupyter Notebook file containing the Dash app code.
 - **assets/**: Contains static assets like the Cash Compass logo.
   - `cash_compass.png`: The logo of the application.
 
