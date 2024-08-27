@@ -23,12 +23,31 @@ Before running the project, ensure you have the following installed:
 - [Python 3.8+](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/installation/)
 
+## Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/cash-compass-dash-app.git
+    cd cash-compass-dash-app
+    ```
+
+2. **Create and activate a virtual environment** (optional but recommended):
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+3. **Install the required Python packages**:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Set up the FRED API Key**:
 
    Get your API key from the [FRED website](https://fred.stlouisfed.org/) and add it to the `main()` function in the `cash-compass-v5.ipynb` file:
    ```python
    api_key = "your_api_key_here"
+   ```
 
 ## Usage
 
@@ -41,11 +60,28 @@ Open your web browser and go to the provided Jupyter Notebook interface to run t
 - Observe predictions for future spending.
 - Explore cumulative graphs for a holistic view of your expenses over time.
 
+## Results
+
+The following screenshots provide a summary analysis of the application's output:
+
+### Health Category Summary
+![Summary Health](Summary%20analysis/summary_health.png)
+
+This screenshot shows the detailed spending analysis for the Health category.
+
+### July Summary
+![Summary July](Summary%20analysis/summary_july.png)
+
+This screenshot provides an overview of spending for the month of July.
+
 ## Project Structure
 
 - **cash-compass-v5.ipynb**: The main Jupyter Notebook file containing the Dash app code.
 - **assets/**: Contains static assets like the Cash Compass logo.
   - `cash_compass.png`: The logo of the application.
+- **Summary analysis/**: Contains screenshots of the analysis results.
+  - `summary_health.png`: Health category spending summary.
+  - `summary_july.png`: July spending summary.
 
 ## Acknowledgements
 
@@ -57,10 +93,6 @@ Open your web browser and go to the provided Jupyter Notebook interface to run t
 
 - Josue St Louis
 - Mario Penagos
-
-
-
-
 
 
 
